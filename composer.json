@@ -1,0 +1,21 @@
+{
+    "name": "marko/kungfu",
+    "type": "project",
+    "require": {
+    "endroid/qrcode": "^2.4",
+    "htl3r/kung-fu-movies": "^1.0"
+    },
+    "license": "GPL",
+    "authors": [
+        {
+            "name": "dobras",
+            "email": "marko.dobras@hotmail.com"
+    }
+    ],
+    "repositories": {
+        "kung-fu-site": {
+        "type": "vcs",
+        "url": "https://github.com/Weissheiten/htl3r.kungfumovies.git"
+        }
+    }
+}
