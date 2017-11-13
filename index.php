@@ -14,7 +14,7 @@ class Film extends kungfumovie implements kungfui{
             '"name":"'.$this->getName().'",'."\n".
             '"rating":"'.$this->getRating().'",'."\n".
             '"movieURL":"'.$this->getMovieURI().'"'."\n".
-            "}\xA";
+            "}\n";
         return $json;
     }
     public function getMovieQRCodeForBrowser(): string{
